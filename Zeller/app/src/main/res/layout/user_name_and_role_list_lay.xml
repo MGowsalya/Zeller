@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_role_lay"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="top"
+    android:background="@drawable/list_bg"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/quicksand_medium"
+        android:gravity="start|center_vertical"
+        android:text="Test"
+        android:textColor="@color/black_color"
+        android:textSize="25sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tv_user_role"
+        style="@style/TextView_light_style"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_weight="1"
+        android:gravity="start|center_vertical"
+        android:text="Admin"
+        android:textColor="@color/black_color" />
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="280dp"
+    android:background="@drawable/border"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/Add_New_Category_textview"
+        android:text="Add New Category"
+        android:textSize="15sp"
+        android:padding="6dp"
+        android:gravity="center"
+        android:background="@drawable/border2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/category_name_edittext"
+        android:hint="@string/enter_the_category_name_here"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/Add_Items_textview"
+            android:text="@string/add_items"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp" />
+        <ImageButton
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/product_add_image_button"
+            android:layout_width="wrap_content"
+            android:src="@drawable/add_item"
+            android:background="@null"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp" />
+    </LinearLayout>
+
+</LinearLayout>

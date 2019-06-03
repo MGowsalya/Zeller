@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_lay"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="top"
+    android:background="@drawable/list_bg"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <TextView
+        android:id="@+id/c_name_textview"
+        style="@style/TextView_medium_style"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        android:gravity="start|center_vertical"
+        android:text=""
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorGrey"
+        android:gravity="center"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/number_of_products_textView"
+        style="@style/TextView_light_style"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:gravity="start|center_vertical"
+        android:text=""
+        android:textColor="@color/light_black"
+        android:textSize="15sp" />
+
+</LinearLayout>
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/list_item_lay"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/list_bg"
+android:focusable="true"
+android:focusableInTouchMode="true"
+android:orientation="horizontal"
+android:padding="5dp">
+
+
+<TextView
+    android:id="@+id/c_name_textview"
+    style="@style/TextView_bold_style"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:gravity="center"
+    android:text="Stationery"
+    android:textSize="20sp"
+    android:visibility="visible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<View
+    android:id="@+id/view3"
+    android:layout_width="2dp"
+    android:layout_height="30dp"
+    android:layout_marginStart="8dp"
+    android:background="@color/colorGrey"
+    android:gravity="center"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/c_name_textview"
+    app:layout_constraintTop_toTopOf="parent" />
+
+
+<TextView
+    android:id="@+id/number_of_products_textView"
+    style="@style/TextView_light_style"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:gravity="center"
+    android:text="1 Products"
+    android:textColor="@color/light_black"
+    android:textSize="15sp"
+    android:visibility="visible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.008"
+    app:layout_constraintStart_toEndOf="@+id/view3"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>-->

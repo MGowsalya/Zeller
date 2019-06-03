@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/staticbar_linearlayout"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/billing_imagebutton"
+            style="@style/StaticBarImageButtonStyle"
+            android:src="@drawable/billing__y" />
+
+        <ImageButton
+            android:id="@+id/item_imagebutton"
+            style="@style/StaticBarImageButtonStyle"
+            android:src="@drawable/items_y" />
+
+        <ImageButton
+            android:id="@+id/reports_imagebutton"
+            style="@style/StaticBarImageButtonStyle"
+            android:src="@drawable/reports_y" />
+
+        <ImageButton
+            android:id="@+id/settings_imagebutton"
+            style="@style/StaticBarImageButtonStyle"
+            android:src="@drawable/settings__y" />
+
+        <ImageButton
+            android:id="@+id/zeller_imagebutton"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:background="@null"
+            android:src="@drawable/zeller" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/static_page_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+</LinearLayout>

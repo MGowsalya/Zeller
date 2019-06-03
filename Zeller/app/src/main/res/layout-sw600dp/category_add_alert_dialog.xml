@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="500dp"
+    android:layout_height="280dp"
+    android:background="@drawable/border_for_small_tab"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Add_New_Category_textview"
+        style="@style/TextView_medium_style"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/textview_border_bg_for_small_tab"
+        android:gravity="center"
+        android:text="Add New Category"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/category_name_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/quicksand_light"
+        android:hint="@string/enter_the_category_name_here"
+        android:inputType="textCapSentences"
+        android:maxLength="13"
+        tools:ignore="RtlHardcoded" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Add_Items_textview"
+            style="@style/TextView_medium_style"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/textview_border_bg_for_small_tab"
+            android:gravity="center"
+            android:text="@string/add_items"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/product_add_image_button"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:src="@drawable/add_items_black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tick_cross_linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/no_imagebutton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/no" />
+
+        <ImageButton
+            android:id="@+id/yes_imagebutton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@null"
+            android:src="@drawable/yes" />
+    </LinearLayout>
+
+</LinearLayout>

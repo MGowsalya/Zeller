@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="result_font_min">13sp</dimen>
+    <dimen name="result_font_max">18sp</dimen>
+
+    <dimen name="executvie_text_size_min">15sp</dimen>
+    <dimen name="executvie_text_size_max">20sp</dimen>
+
+</resources>
+

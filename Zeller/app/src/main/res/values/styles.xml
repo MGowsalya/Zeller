@@ -1,0 +1,132 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBlack</item>
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+        <item name="colorAccent">@color/colorBlack</item>
+
+    </style>
+
+    <style name="MyTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/border2</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+
+    <style name="Items_Textview_style" parent="android:Widget.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/border2</item>
+    </style>
+
+    <style name="StaticBarImageButtonStyle" parent="android:Widget.ImageButton">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="Items_imagebutton_style" parent="android:Widget.ImageButton">
+        <item name="android:src">@drawable/add_items_black</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginStart" tools:ignore="NewApi">200dp</item>
+        <item name="android:layout_marginLeft">220dp</item>
+    </style>
+
+    <style name="Items_imagebutton_style_02" parent="android:Widget.ImageButton">
+        <item name="android:src">@drawable/add_items_black</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginStart" tools:ignore="NewApi">230dp</item>
+        <item name="android:layout_marginLeft">220dp</item>
+    </style>
+
+    <style name="TextView_light_style">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/quicksand_light</item>
+    </style>
+
+    <style name="TextView_medium_style">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">@font/quicksand_medium</item>
+    </style>
+
+    <style name="TextView_bold_style">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+    </style>
+
+    <style name="Orange_button_style">
+        <item name="android:textColor">@color/white_color</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/quicksand_medium</item>
+    </style>
+
+    <style name="TextView_medium_style_border">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/border2</item>
+        <item name="android:fontFamily">@font/quicksand_medium</item>
+    </style>
+
+    <style name="Edittext_style">
+        <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">@font/quicksand_medium</item>
+        <item name="android:maxLength">10</item>
+    </style>
+
+
+    <style name="Orange_button">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+        <item name="android:background">@drawable/orange_button_bg</item>
+    </style>
+
+
+    <style name="spinner_styele_medium">
+        <item name="android:textSize">25sp</item>
+        <item name="android:drawableEnd">@drawable/spinner_arrow_down</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:fontFamily">@font/quicksand_light</item>
+    </style>
+
+    <style name="MySwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorGreen</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/colorRed</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/black_color</item>
+    </style>
+</resources>

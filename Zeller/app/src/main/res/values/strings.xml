@@ -1,0 +1,300 @@
+<resources>
+    <string name="app_name">Zeller</string>
+    <string name="billing">Billing</string>
+    <string name="items">Items</string>
+    <string name="reports">Reports</string>
+    <string name="settings">Settings</string>
+    <string name="category">CATEGORY</string>
+    <string name="product">PRODUCT</string>
+    <string name="enter_the_category_name_here">Enter the Category name here</string>
+    <string name="add_items">Add Items</string>
+    <string name="text">Your new category has been added. Do you want to add
+        items to it ? </string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="categories">Categories</string>
+    <string name="item_name">Item Name</string>
+    <string name="enter_item_name">Enter the Item name here</string>
+    <string name="category_name">Category Name</string>
+    <string name="add_existing_item">Add Existing Item</string>
+    <string name="stationery">Stationery</string>
+
+    <string name="basic_details_txt">Basic Detail</string>
+    <string name="price_and_taxes">Price and Taxes</string>
+    <string name="bill_mode_txt">Bill Mode</string>
+    <string name="price_txt">Price</string>
+    <string name="billing_price">Billing Price</string>
+    <string name="wholesale_txt">Wholesale</string>
+    <string name="retail_txt">Retail</string>
+    <string name="resell_txt">Resell</string>
+    <string name="taxes_txt">Taxes</string>
+    <string name="cgst">CGST %</string>
+    <string name="sgst">SGST %</string>
+    <string name="rs_txt">Rs </string>
+
+    <string name="created_on_txt">Created on : </string>
+    <string name="num_of_items">Number of Items : </string>
+    <string name="edititems_txt">Edit Items</string>
+    <string name="add_items_to_cate">Add Items to Category</string>
+    <string name="add_new_item">Add New Item</string>
+    <string name="company_txt">Company</string>
+    <string name="billing_txt">Billing</string>
+    <string name="users_txt">Users</string>
+    <string name="general_txt">General</string>
+    <string name="company_name_txt">Company Name</string>
+    <string name="address_txt_01">Address 01</string>
+    <string name="address_txt_02">Address 02</string>
+    <string name="address_txt_03">Addrss 03</string>
+    <string name="line_txt_01">Line 1</string>
+    <string name="line_txt_02">Line 2</string>
+    <string name="city_txt">City</string>
+    <string name="pin_code_txt">Pin Code</string>
+    <string name="Place_txt">Place</string>
+    <string name="address_two">Addrss teo</string>
+    <string name="address_three">Address 03</string>
+    <string name="gst_num_txt">GST</string>
+    <string name="phone_no_txt">Phone Number</string>
+    <string name="bill_msg_txt">Bill Message</string>
+    <string name="save_txt">save</string>
+    <string name="show_item_tax_on_bill_txt">Show Item wise Tax on bill</string>
+    <string name="yes_txt">Yes</string>
+    <string name="category_txt">Category</string>
+    <string name="units_txt">Units</string>
+    <string name="favourites_txt">Favourites</string>
+    <string name="number_of_units_sold">Number of Units Sold :</string>
+    <string name="rstxt">Rs</string>
+    <string name="i_name">ITEM NAME</string>
+
+    <string-array name="units_values">
+        <item name="kilo_grams">Kilo Gram</item>
+        <item name="meters">Meter</item>
+        <item name="pieces">Pieces</item>
+    </string-array>
+    <string name="price_txt_rs">Price[Rs]</string>
+    <string name="update">Update</string>
+    <string name="category_name_txt">Category Name</string>
+    <string name="enter_category_name_txt">Enter Category Name</string>
+
+
+    <!--Settings page for users details-->
+    <style name="users_txt">Users</style>
+
+    <string name="billing_mode_txt">Billing Mode</string>
+    <string name="bill_mode_name_txt">Bill Mode Name</string>
+    <string name="name_txt">Name</string>
+    <string name="role_txt">Role</string>
+    <string name="bill_prefix_txt">Bill Prefix</string>
+    <string name="pin_txt">PIN</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Settings for general details-->
+    <string name="general_setting_txt">General Settings</string>
+    <string name="version_info">Version Info</string>
+    <string name="valid_upto_txt">Valid Up to</string>
+    <string name="language_txt">Language</string>
+    <string name="english_txt">English</string>
+    <string name="tamil_txt">தமிழ்</string>
+    <string name="printer_setting_txt">Printer Settings</string>
+    <string name="bluetooth_txt">Bluetooth</string>
+    <string name="scan_fr_device_txt">Scan For devices</string>
+    <string name="paired_device_txt">Paired devices</string>
+    <string name="delete_txt">Delete</string>
+    <string name="pair_txt">Pair</string>
+    <string name="logout_txt">Logout</string>
+    <string name="scanning_txt">Scanning…</string>
+    <string name="available_devices_txt">Available Devices</string>
+    <string name="paired_deivce_txt">Paired Devices</string>
+    <string name="no_device_found_txt">No Device Found</string>
+    <string name="no_paired_devices">No Paired Devices</string>
+
+    <!--Error Message for Settings Company Page-->
+    <string name="pls_enter_company_name">Please Enter Your Company Name</string>
+    <string name="pls_enter_address">Please Enter Your Address</string>
+    <string name="pls_enter_address_02">Please Enter Your Address</string>
+    <string name="pls_enter_address_03">Please Enter Your Address 03</string>
+    <string name="pls_enter_city">Please Enter City</string>
+    <string name="pls_enter_gst_number">Please Enter Your GST Number</string>
+    <string name="pls_enter_phone_num">Please Enter Your Phone Number</string>
+    <string name="pls_enter_bill_msg">Please Enter Bill Message</string>
+    <string name="pls_enter_place">Please Enter Place</string>
+    <string name="pls_enter_pin_number">Please Enter Pin Number</string>
+
+    <string name="pls_enter_valid_company_name">Please Enter Valid Company Name</string>
+    <string name="pls_enter_valid_address">Please Enter Valid Address</string>
+    <string name="pls_enter_valid_city_details">Please Enter City Details</string>
+    <string name="pls_enter_valid_gst_num">Please Enter Valid GST Number</string>
+    <string name="pls_enter_valid_phone_num">Please Enter Valid Phone Number</string>
+    <string name="pls_enter_Valid_place">Plase Enter Valid Place</string>
+    <string name="pls_enter_Valid_pin_number">Plase Enter Valid Pin Number</string>
+    <string name="address_one">Address One</string>
+    <string name="db_exported">DB Exported</string>
+    <string name="company_profile_updated_msg">Company profile updated successfully</string>
+    <string name="company_profile_created_msg">Company profile created successfully</string>
+
+    <!--Error Message for Settings Billing Page-->
+    <string name="pls_enter_bill_mode_name">Please Enter Bill Mode Name</string>
+    <string name="pls_enter_valid_bill_mode_name">Please Enter Valid Bill Mode Name</string>
+    <string name="this_bill_mode_name_already_used">This Bill Mode Already Used</string>
+    <string name="bill_name_already_exists">Bill Name Already Exists</string>
+    <string name="company_name_already_exists">Company Name Already Exists</string>
+    <!--Settings for  User Page-->
+    <string-array name="users_array_details">
+        <item>Admin</item>
+        <item>Cashier</item>
+        <item>SalesPerson</item>
+    </string-array>
+
+    <string-array name="users_bill_prefix_array">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+
+    </string-array>
+
+    <!-- prefix values for salesperson-->
+    <string-array name="prefix_salesperson">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>  </item>
+    </string-array>
+
+    <!-- Error Message for Users Page-->
+    <string name="pls_enter_user_name">Please Enter User Name</string>
+    <string name="pls_enter_user_pin">Please Enter Pin</string>
+    <string name="pls_enter_valid_user_name">Please Enter Valid User name</string>
+    <string name="pls_enter_valid_user_pin">Please Enter Valid Pin</string>
+    <string name="user_name_already_exists">User Name Already Exists</string>
+    <string name="cashier_txt">Cashier</string>
+    <string name="admin_txt">Admin</string>
+
+    <!--Billing Page-->
+    <string name="salesperson_txt">SalesPerson</string>
+
+    <string name="billmode_txt">Bill Mode</string>
+    <string name="bill_no_txt">Bill No</string>
+    <string name="bill_number_txt">Bill Number</string>
+    <string name="date_txt">Date</string>
+    <string name="time_txt">Time</string>
+    <string name="cancel_txt">Cancel</string>
+    <string name="print_txt">Print</string>
+    <string name="beforetax_txt">Before Tax</string>
+    <string name="gst_txt">GST</string>
+    <string name="cgst_txt">CGST</string>
+    <string name="total_txt">Total</string>
+    <string name="sgst_txt">SGST</string>
+    <string name="ok_txt">OK</string>
+    <string name="please_fill_company_details">Please Fill Company Details</string>
+    <string name="please_fill_billing_details">Please Fill Billing Details</string>
+    <string name="please_fill_user_details">Please Fill User Details</string>
+    <string name="more_than_3_values_not_accepted">More than 3 Billing values not accepted</string>
+
+    <string name="value_txt">Value</string>
+    <string name="executive_txt">Executive</string>
+    <string name="view_txt">View</string>
+
+
+    <!--Setting Generals Page-->
+    <string-array name="languages_selection">
+        <item>English</item>
+        <item>தமிழ்</item>
+    </string-array>
+
+    <!--Items Page-->
+    <string name="select_any_one_cate">Select any one category</string>
+    <string name="nums_not_allowed">numbers not allowed</string>
+    <string name="spl_char_not_allowed">Special Characters Not Allowed </string>
+    <string name="alphabets_only_accepted">Alphabetical letters are only accepted</string>
+    <string name="pls_enter_valid_name">Please Enter Valid Name</string>
+    <string name="cate_name_already_exists">Category Name Already Exists</string>
+    <string name="item_name_already_exists">"Item Name Already Exists..</string>
+    <string name="products_txt"> Products</string>
+
+    <!--Reports Page-->
+    <string name="today_sale_txt">Today\'s Sales</string>
+    <string name="reports_by">Reports By</string>
+    <string name="from_txt">From</string>
+    <string name="to_txt">To</string>
+    <string name="bills_txt">Bills</string>
+    <string name="bill_prefix">Bill Prefix</string>
+    <string name="delete">Delete</string>
+    <string name="available_device">Available Device</string>
+    <string name="facebook_app_id">1989004701372625</string>
+    <string name="submit_txt">Submit</string>
+    <string name="enter_price_txt">Enter Price</string>
+    <string name="no_products_for_txt">No Products Added</string>
+    <string name="please_enter_price_txt">Please Enter Price</string>
+    <string name="no_favourites_exists">No Favourites Exists</string>
+    <string name="no_items_exists">No Items Exists</string>
+    <string name="prefix_txt">Prefix</string>
+    <string name="before_tax_amount_txt">Before Tax</string>
+    <string name="tax_txt">Tax</string>
+    <string name="net_amount_txt">Net Amount</string>
+    <string name="are_you_sure_want_to_exit_txt">Are you sure to exit ?</string>
+    <string name="add_new_bill_txt">Add New Bill</string>
+    <string name="bill_view_txt">Bill View</string>
+
+    <string name="categories_txt">Categories</string>
+    <string name="from_date_txt">From date</string>
+    <string name="to_date_txt">To date</string>
+
+    <string name="item_id_txt">Item Id</string>
+    <string name="item_name_txt">Item Name</string>
+    <string name="qunatity_txt">Quantity</string>
+    <string name="amount_txt">Amount</string>
+    <string name="no_data_exists_txt">No Data Exists</string>
+
+    <!--Login Screens Details-->
+    <string name="login_txt">Login</string>
+    <string name="sign_up_now_txt">Sign up now</string>
+    <string name="not_a_member_txt">Not a member ?</string>
+    <string name="forgot_pin_txt"><u>Forgot PIN ?</u></string>
+    <string name="user_details_txt">User Details</string>
+    <string name="user_name_txt">User Name</string>
+    <string name="repeat_pin_txt">Repeat PIN</string>
+    <string name="next_txt">Next</string>
+    <string name="shop_details_txt">Shop Details</string>
+    <string name="shop_name_txt">Shop Name</string>
+    <string name="save_txt_reg">Save</string>
+    <string name="okay_txt">Okay</string>
+    <string name="you_can_also_mail_us_at_zeller_skyrand_com_txt">You can also mail us at zeller@skyrand.com</string>
+    <string name="please_reach_us_at_91_9876543210_by_call_or_sms_to_reset_your_pin_txt">Please reach us at +91-9876543210 by call or SMS to reset your PIN.</string>
+    <string name="enter_user_name_txt">Please Enter User Name</string>
+    <string name="enter_valid_user_name">Please Enter Valid User Name</string>
+
+    <string name="enter_user_pin_txt">Please Enter PIN</string>
+    <string name="enter_valid_user_pin">Please Enter Valid PIN</string>
+    <string name="enter_user_pin_not_match">PIN Not Matching Please Enter Valid PIN</string>
+
+    <string name="pls_enter_shop_name">Please Enter Shop Name</string>
+    <string name="pls_enter_pincode">Please Enter Pincode</string>
+    <string name="pls_enter_valid_pincode">Please Enter Valid Pincode</string>
+
+
+    <string name="logout_msg">Are you sure want to logout ?</string>
+    <string name="select_any_cate_txt">Select Any One Category</string>
+    <string name="connecting_to_printer_txt">Connecting to printer please wait</string>
+    <string name="printer_press_again_txt">Printer Connected ,Press Again for Print</string>
+    <string name="pls_enter_bill_value_txt">Please Enter Bill Values</string>
+    <string name="no_bill_added_txt">No Bill Added</string>
+    <string name="need_to_pair_bluth_printer_txt">Need To Pair Bluetooth Printer</string>
+    <string name="pls_enter_detaisl_txt">Please Enter The Details</string>
+    <string name="pls_enter_from_date_txt">Please Enter From Date</string>
+    <string name="pls_enter_to_date_txt">Please Enter To Date</string>
+    <string name="pls_enter_bill_mode_txt">Please Enter Bill Mode</string>
+    <string name="device_not_support_blu_txt">Your device doesn\'t support Bluetooth</string>
+    <string name="already_paired_txt">Already Paired</string>
+    <string name="pairing_txt">Pairing</string>
+    <string name="removing_txt">Removing</string>
+    <string name="update_sucessfully_txt">updated successfully..</string>
+    <string name="one_mini_value_txt">1 is a minimum value</string>
+
+
+</resources>
+

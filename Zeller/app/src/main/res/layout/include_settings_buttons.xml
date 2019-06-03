@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_curve_normal"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="24dp">
+
+        <LinearLayout
+            android:id="@+id/linear_group_lay"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_curve_bg"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:id="@+id/linear_btn_company"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_curve_bg"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_company"
+                    style="@style/TextView_bold_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/company_txt" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1.5dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:background="@color/colorYellow" />
+
+            <LinearLayout
+                android:id="@+id/linear_btn_billing"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_curve_bg"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_billing"
+                    style="@style/TextView_bold_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/billing_txt" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1.5dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:background="@color/colorYellow" />
+
+            <LinearLayout
+                android:id="@+id/linear_btn_users"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_curve_bg"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_users"
+                    style="@style/TextView_bold_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/users_txt" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1.5dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:background="@color/colorYellow" />
+
+            <LinearLayout
+                android:id="@+id/linear_btn_general"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_curve_bg"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_generals"
+                    style="@style/TextView_bold_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/general_txt" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

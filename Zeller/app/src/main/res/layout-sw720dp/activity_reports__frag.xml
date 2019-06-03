@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.admin.zeller.Fragments.Reports_Frag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/new_layout_curve_bg_01"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relative_reports_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_today_sales"
+                style="@style/TextView_bold_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/today_sale_txt" />
+
+            <TextView
+                android:id="@+id/tv_today_sales_value"
+                style="@style/TextView_bold_style"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/tv_today_sales"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/black_color"
+                android:gravity="center"
+                android:text="Rs.1234"
+                android:textColor="@color/colorYellow" />
+
+            <TextView
+                android:id="@+id/tv_reports_by"
+                style="@style/TextView_bold_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="16dp"
+                android:layout_toEndOf="@id/tv_today_sales"
+                android:text="@string/reports_by" />
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/spinner_bills"
+                style="@style/TextView_medium_style"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_reports_by"
+                android:layout_marginStart="43dp"
+                android:layout_marginTop="32dp"
+                android:layout_toEndOf="@id/tv_today_sales_value"
+                android:drawableEnd="@drawable/spinner_arrow_down"
+                android:gravity="center_vertical"
+                android:hint="@string/bills_txt"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="150dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="43dp"
+                android:layout_marginTop="138dp"
+                android:layout_toEndOf="@id/tv_today_sales_value"
+                android:background="@color/black_color"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:id="@+id/spinner_from"
+                style="@style/TextView_medium_style"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="16dp"
+                android:layout_toEndOf="@id/tv_reports_by"
+                android:drawableEnd="@drawable/spinner_arrow_down"
+                android:gravity="center_vertical"
+                android:hint="@string/from_date_txt"
+                android:textColor="@color/black_color"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="150dp"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/spinner_from"
+                android:layout_marginTop="60dp"
+                android:background="@color/black_color"
+                android:paddingBottom="10dp" />
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/spinner_bill_prefix_reports_page"
+                style="@style/TextView_medium_style"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinner_from"
+                android:layout_marginStart="285dp"
+                android:layout_marginTop="25dp"
+                android:layout_toEndOf="@id/tv_today_sales_value"
+                android:drawableEnd="@drawable/spinner_arrow_down"
+                android:gravity="center_vertical"
+                android:hint="@string/bill_prefix_txt"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/spinner_to"
+                style="@style/TextView_medium_style"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="16dp"
+                android:layout_toEndOf="@id/spinner_from"
+                android:drawableEnd="@drawable/spinner_arrow_down"
+                android:gravity="center_vertical"
+                android:hint="@string/to_date_txt"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="150dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="58dp"
+                android:layout_toEndOf="@id/spinner_from"
+                android:background="@color/black_color"
+                android:paddingBottom="10dp" />
+
+            <View
+                android:layout_width="150dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="92dp"
+                android:layout_marginTop="135dp"
+                android:layout_toEndOf="@id/spinner_bills"
+                android:background="@color/black_color"
+                android:paddingBottom="10dp" />
+
+            <Button
+                android:id="@+id/btn_submit"
+                style="@style/Orange_button_style"
+                android:layout_width="153dp"
+                android:layout_height="45dp"
+                android:layout_alignBottom="@+id/tv_today_sales_value"
+                android:layout_alignStart="@+id/spinner_to"
+                android:layout_below="@id/spinner_to"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="19dp"
+                android:background="@drawable/orange_button"
+                android:text="@string/submit_txt" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_listview_lay"
+            android:layout_width="match_parent"
+            android:layout_height="580dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border_for_small_tab">
+
+            <TextView
+                android:id="@+id/tv_gst_number"
+                style="@style/TextView_bold_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/bill_prefix_txt"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/reports_page_title_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="visible"
+                    android:weightSum="6">
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        style="@style/TextView_medium_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/date_txt"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <TextView
+                        android:id="@+id/textView39"
+                        style="@style/TextView_medium_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginStart="170dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/prefix_txt"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        style="@style/TextView_medium_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginStart="400dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/bill_number_txt"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        style="@style/TextView_medium_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginStart="570dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/before_tax_amount_txt"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        style="@style/TextView_medium_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginStart="300dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/tax_txt"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <TextView
+                        style="@style/TextView_medium_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="32dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:padding="5dp"
+                        android:text="@string/net_amount_txt"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+                </android.support.constraint.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/tv_no_data_found"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="180dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:text="@string/no_data_exists_txt"
+                    android:textSize="25sp"
+                    android:visibility="gone" />
+
+                <ListView
+                    android:id="@+id/listview_reports_frag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
